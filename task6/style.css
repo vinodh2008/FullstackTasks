@@ -103,7 +103,7 @@ hr {
 .dropdown_content {
     display: none;
     position: absolute;
-    /* background-color: #f9f9f9; */
+    background-color: #f9f9f9;
     min-width: 300px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
@@ -296,4 +296,107 @@ i {
     /* justify-items: inherit; */
     /* jus */
     font-size: 30px;
+}
+/*  clg images and matters section */
+.clgphotesandmatter
+{
+    background-color: rgb(194, 192, 193);
+    display: flex;
+    width: 100%;
+
+}
+.firstimg img
+{ 
+    padding: 40px;
+     width: 300px;
+     height: 250px;
+}
+.firstimg {
+    padding: 20px;
+    width:30%;
+    background-color: white;
+    gap: 40px;
+    margin: 30px;
+    text-align: centerss;
+
+}
+.firstimg h3{
+    display: block;
+    padding: 20px;
+
+}
+.firstimg div a{
+   text-decoration: none;
+   display: block;
+   text-align: center;
+   background-color: orange;
+   width: fit-content;
+   /* text-align: center;
+    */
+    /* padding: 0px; */
+    margin-left: 30px;  
+}
+/*  key recuriters of the company  */
+.Recruiters
+{
+    background-color: white;
+    height: 300px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: white;
+}
+.recuiterslogoes{
+    display: flex;
+    gap:300px;
+    padding: 50px;
+
+}
+.recuiterslogoes  div img{
+    border-radius: 30px;
+    width: 150px;
+    height: 150px;
+
+}
+/* footersection */
+.footersection{
+        background-color: rgb(17, 16, 61);
+        display: flex;
+        gap: 50px;
+
+}
+.addressdiv{
+    color: white;
+    line-height: 40px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.addressdiv h3{
+    font-size: 20px;
+    color: orange;
+
+}
+
+.Resources{ 
+
+   color: white;
+    line-height: 40px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.Resources h3{
+    font-size: 20px;
+    color: orange;
+
+}
+.QuickLinks{
+       color: white;
+    line-height: 40px;
+    padding-left: 20px;
+    margin-top: 20px;
+
+}
+.QuickLinks h3{
+    font-size: 20px;
+    color: orange;
+
 }

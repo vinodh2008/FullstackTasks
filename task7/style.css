@@ -1,0 +1,527 @@
+ /* header bar css
+* {
+    margin: 0px;
+    padding: 0px;
+    /* width: auto; *
+}
+body{
+    width: 100%;
+}
+
+.navbarandheader {
+
+    display: flex;
+    gap: 100px;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    background-color: white;
+    padding: 40px;
+
+
+
+
+}
+
+.nameoflogo b {
+    color: black;
+    font-size: 30px;
+    /* font-weight: ; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 10px; */
+    /* padding: 30px; *
+}
+
+.nameoflogo {
+    padding: 20px;
+
+}
+
+.navlinks ul {
+    display: flex;
+    gap: 35px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(113, 103, 103);
+}
+
+a:hover {
+    color: orange;
+}
+
+/* reservationbtn *
+.reservationbtn button {
+    background-color: rgb(230, 74, 74);
+    border: none;
+    height: 80px;
+    width: 190px;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    /* margin: 10px; *
+    border-radius: 10px;
+    /* padding-bottom: 10px; *
+    color: rgb(243, 240, 240);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.reservationbtn button:hover {
+    color: #fff;
+    background-color: #bb2d3b;
+    border-color: #b02a37;
+}
+
+.navlinks {
+    padding: 20px;
+}
+
+/*  ratings and its images section *
+.ratings {
+
+    /* height: 800px; *
+
+}
+
+.ratings .backgroundvideo {
+
+    content: auto-fit;
+    position: relative;
+    z-index: -1;
+    /* opacity: 0.8; *
+    left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 600;
+
+
+
+}
+
+.sideimg img {
+    height: 550px;
+    width: 800;
+    position: absolute;
+    top: 500px;
+    left: 900px;
+
+}
+
+.matterforrating {
+    width: 500px;
+    z-index: 1;
+    position: absolute;
+    top: 500px
+}
+
+.matterforrating h1 {
+    font-size: 120px;
+}
+
+.matterforrating p {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.matterforrating {
+    color: white;
+    margin-left: 150px;
+    opacity: 1;
+
+
+}
+.menusection 
+    padding: 90px;
+    background: linear-gradient(to top, var(--dark-color), transparent 100%);
+    ;
+    height: 1700px;
+    /* width: 1300px; *
+   width: 100%;
+}
+
+.menusection h1 {
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    padding: 80px;
+}
+/* first row of menus css *
+.row {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+
+}
+
+.m img {
+    width: 550px;
+    height: 500px;
+}
+
+.menusection span {
+    background: rgb(250, 238, 238);
+    width: 50px;
+    height: 40px;
+    color: rgb(245, 106, 20);
+    border-radius: 100px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    line-height: 40px;
+    opacity: 1;
+    justify-content: center;
+}
+
+.menusection strong {
+    font-size: 40px;
+    display: block;
+}
+/* fixed image section *
+
+.fixedimage{
+    background-image: url('fixed.jpeg');
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+/*  news and eating photes section *
+.newssection h2{
+    
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.newssection{ 
+    padding: 50px;
+    margin: 0px;
+}
+.newsevents{
+    display: flex;
+    /* gap: 100px; */
+    /* justify-content: center; *
+    justify-content: space-evenly;
+    margin-left: 10px;
+    padding: 50px;
+
+}
+.newsevents {
+    
+    width: 100%;
+    height: 500px;
+}
+.firstimg {
+    
+    position: absolute;
+    /* left: auto;
+     *
+     left: 10%;   
+}
+.firstimg div {
+    position: absolute;
+    left :30px;
+    top:300px
+
+
+}
+.newsevents button{
+    width: 150px;
+    background-color: rgb(255, 65, 65);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+
+}
+.newsevents p{
+    padding: 10px;
+    color: white;
+    /* list-style: ;
+     */
+     /* text-decoration: ; *
+     font-size: 30px;
+}
+.firstimg{
+     overflow: hidden;
+}
+.newsevents img{
+    /* ; *
+    height: 400px;
+    width:500px;
+    transition: transform 0.3s ease-in-out;
+}
+.newsevents img:hover{
+ transform: scale(1.1);
+
+}
+/* secongd image*
+
+.secimg div { 
+    position: absolute;
+    left :30px;
+    top:300px
+
+
+}
+.secimg{
+    position: relative;
+    left: 500px;
+} */
+/* GLOBAL RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbarandheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 5%;
+    background: white;
+    flex-wrap: wrap;
+}
+
+.nameoflogo {
+    font-size: 28px;
+}
+
+.navlinks ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: #777;
+}
+
+.navlinks a:hover,
+.navlinks .active {
+    color: orange;
+}
+
+.reservationbtn button {
+    background: #e64a4a;
+    border: none;
+    padding: 14px 28px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* HERO SECTION */
+.ratings {
+    position: relative;
+}
+
+.backgroundvideo {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.contentsonvideo {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+    color: white;
+    gap: 40px;
+}
+
+.matterforrating h1 {
+    font-size: clamp(36px, 6vw, 120px);
+}
+
+.matterforrating p {
+    font-size: clamp(18px, 3vw, 40px);
+}
+
+.reviewtext {
+    color: #ccc;
+}
+
+.sideimg img {
+    max-width: 450px;
+    width: 100%;
+}
+
+/* MENU */
+.menusection {
+    padding: 80px 5%;
+}
+
+.menusection h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.row {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.m {
+    max-width: 350px;
+    overflow: hidden;
+}
+
+.m img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.m:hover img {
+    transform: scale(1.1);
+}
+
+.m span {
+    background: #fdeeee;
+    color: #f56a14;
+    padding: 6px 14px;
+    border-radius: 20px;
+}
+
+.reviews {
+    color: #999;
+}
+
+/* FIXED IMAGE */
+.fixedimage {
+    height: 70vh;
+    background-image: url('fixed.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* NEWS SECTION */
+.newssection {
+    padding: 80px 5%;
+}
+
+.newssection h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.newsevents {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.news-card {
+    position: relative;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+.news-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.news-card:hover img {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+
+.overlay button {
+    background: red;
+    border: none;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 6px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .contentsonvideo {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbarandheader {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+/*  footer section */
+.footer{
+    background-image: url('./footerimage.jpg');
+    /* opacity: 0.5; */
+    background-size: cover;
+    background-position: center;
+    height: 590px;
+    background-color: #777;
+   
+}
+
+.col1-row1{
+    color: white;
+    font-size: 20px;
+    padding-top :50px ;
+    padding-left: 100px;
+}
+.col1-row2{
+     color: white;
+     display: flex;
+     gap: 100px;
+     padding: 100px;
+
+}
+.col1-row2 div{
+    width: 0px 100px;
+}
+.Copyright{
+    color: #AAA;
+    padding-bottom: 10px ;  
+    text-align: center;
+}
+.footer p:hover,h3:hover,h4:hover{
+    color: orange;
+
+}
+.content{
+ background-color:black;
+opacity:0.7;
+height: 590px;
+
+}
+.logo{
+    font-size: 50px;
+}

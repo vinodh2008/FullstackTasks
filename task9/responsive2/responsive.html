@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 30px 50px;
+            max-width: 1200px;
+            margin-inline: auto;
+        }
+
+        header div {
+            padding: 10px;
+        }
+
+        header div:hover {
+            background-color: aquamarine;
+
+
+        }
+
+      
+
+        header {
+            font-size: larger;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .contetimages {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: " st1 st2"
+                "st3 st4"
+                "st5 "
+            ;
+            gap: 0px;
+            max-width: 1440px;
+            margin: auto;
+              grid-auto-rows: auto;
+
+
+        }
+
+        .contetimages img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .st4 {
+            grid-row: span 2;
+        }
+
+        .st3 {
+            grid-row: span 1;
+        }
+        
+        .st1 img {
+      
+            height: auto;
+
+        }
+
+        .aboutsection {
+            text-align: center;
+            display: block;
+            margin: 50px;
+        }
+
+        .aboutsection h1 {
+            display: block;
+            margin: 50px;
+        }
+
+        .aboutsection div img {
+            max-width: 100%;
+            height: 400px;
+        }
+
+     .aboutsection div p {
+  max-width: 500px;
+  margin: 20px auto;
+  
+}
+
+        form {
+  max-width: 400px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+          @media screen and (max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .contetimages {
+                grid-template-columns: 1fr;
+               
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <header>
+
+            <div>My Art</div>
+            <div><a href="#about" style="text-decoration: none; color: black;">About</a></div>
+
+        </header>
+
+    </section>
+    <section>
+        <div class="contetimages">
+            <div class="st1">
+                <img src="./street1.jpg" alt="street1image">
+            </div>
+            <div class="st2"><img src="./street2.jpg" alt="street2image"></div>
+            <div class="st3"><img src="./street3.jpg" alt="street2image"></div>
+            <div class="st4"> <img src="./street4.jpg" alt="street2image"></div>
+            <div class="st5"><img src="./street5.jpg" alt="street2image"></div>
+
+
+        </div>
+    </section>
+    <section>
+        <div class="aboutsection">
+            <h1>ABOUT</h1>
+            <div><img src="./reverseimg.jpg" alt=""></div>
+            <div>
+                <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest
+                    of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed
+                    tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non
+                    fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae,
+                    ultricies congue gravida diam non fringilla.</p>
+            </div>
+
+
+            <div>
+                <form action="">
+                    <h3>Do not hesitate to contact me!</h3>
+                    <label for="">Name</label>
+                    <input type="text">
+                    <label for="">Email</label>
+
+                    <input type="email" name="" id="">
+                    <label for="">Message</label>
+
+                    <textarea name="" id="">type what you want to express</textarea>
+                    <label for=""></label>
+
+                    <!-- <input type="email" name="" id=""> -->
+                    <button>send</button>
+                </form>
+            </div>
+            <div>
+                <p>Powered by <a href="" style="color: green; text-decoration: none;">w3.css</a></p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

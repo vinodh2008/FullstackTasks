@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-size: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .container{
+            display: grid;
+            grid-template-areas: 'header'
+            'navbar'  
+            "content"
+             "facts"
+              "footer";
+ gap:20px;
+ background-color: white;
+        }
+        .header{
+            grid-area: header;
+            background-color: blue;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        .navbar{
+            grid-area: navbar;
+
+        }
+        .navbar ul{
+
+         padding: 0px;
+            text-decoration: none;
+            list-style: none;
+            margin: 0px;
+
+
+        }
+        .navbar{
+  display: flex;
+  justify-content: space-around;
+}
+        .navbar{
+            background-color: aqua;
+            padding: 10px;
+            margin-top:5px;
+           
+        
+        }
+        .navbar ul li:hover{
+            background-color: rgb(98, 149, 149);
+        }
+        .content {
+  grid-area: content;
+}
+.content >h3{
+    font-size: 50px;
+}
+.content >p{
+    margin: 10px;
+}
+.facts{
+    grid-area: facts;
+    background-color: antiquewhite;
+    padding: 50px;
+    margin: 0px;
+}
+.footer{
+    grid-area: footer;
+    background-color: brown;
+    padding: 10px;
+    color:white;
+    text-align: center;
+}
+/* for the desktop*/
+    @media screen and (min-width: 768px){
+  .container{
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas:
+      "header header header"
+      "navbar content facts"
+      "footer footer footer";
+  }
+    .navbar  {
+  display: flex;
+  flex-direction: column;
+  
+
+ 
+}
+}
+/* for the tablet*/
+   @media screen and (min-width: 1024px){
+  .container{
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:
+      "header header header"
+      " navbar  navbar navbar "
+      "content content facts"
+      "footer footer footer";
+  }
+ .navbar{
+    display: flex;
+    flex-direction: row;
+ }
+
+   }
+
+    
+
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="header">
+                This is header
+            </div>
+            <div class="navbar">
+                  
+                    <div>  Item1</div>
+                <div>     Item2</div>
+                  <div>  Item3</div>
+              
+            </div>
+            <div class="content">
+                <h3>The City</h3>
+                <p>Chania is the capital of the Chania region on the island of Crete.
+
+                The city can be divided in two parts, the old town and the modern city. The old town is situated next to
+                the
+                old harbour and is the matrix around which the whole urban area was developed.
+
+                Chania lies along the north west coast of the island Crete.
+</p>
+            </div>
+            <div class="facts">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, liquam!
+                Earum voluptate eveniet, quis, omnis sunt voluptas tempora fugit enim nulla quaerat illum saepe. Vitae
+                culpa, asperiores incidunt eum molestias aspernatur, eveniet temporibus consequuntur deleniti quam
+                tenetur
+                harum quis. A.
+
+            </div>
+            <div class="footer">
+                Footer
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
